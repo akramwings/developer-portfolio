@@ -60,10 +60,14 @@ section{
     background-image:url(./images/BG.jpg) ;
     background-repeat: no-repeat;
     height: 100vh;
+    background-attachment: fixed;
    
     
 }
 
  .second_sec{
-    
+    background-image:url(./images/BG_2.jpg) ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
  }
