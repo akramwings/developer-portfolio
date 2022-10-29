@@ -1,7 +1,7 @@
 body{
   
     font-family: 'Roboto', sans-serif;
-    color:white;
+    color:rgb(0, 0, 0);
     margin: 0;
     padding: 0;
 }
@@ -12,12 +12,12 @@ body{
 h1{
     font-size: 50px;
     font-weight: 700;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 h2{
     font-size: 40px;
-    color:aliceblue;
+    color:rgb(0, 0, 0);
     line-height: 0px;
 }
 
@@ -25,7 +25,7 @@ h2{
     color:red;
 }
 
-section{
+.flex-container{
     display: flex;
 }
 
@@ -71,3 +71,39 @@ section{
     height: 100vh;
     background-size: cover;
  }
+.half_width{
+    width: 50%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* border-radius: 20px; */
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.418);
+    
+
+}
+ .orange_color{
+    color:orange;
+ }
+
+ .experience_area{
+    background-image: url(./images/half\ circle.png);
+    background-repeat: no-repeat;
+    background-position: left;
+ }
+ #web_dev_ex{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 3;
+}  
+
+#baby_wev_dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(251, 255, 0), rgb(255, 0, 0));
+    border-image-slice: 3;
+}  
+
+
+footer p{
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
